@@ -231,12 +231,7 @@
     margin-bottom: 3.2rem;
 }
 
-.meal-attributes {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
+
 
 .meal-attribute{
     font-size: 1.8rem;
