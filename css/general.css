@@ -60,17 +60,26 @@ body {
 /**GENERAL REUSABLE COMPONENTS**/
 /***********************************/
 
-.grid { 
-    display: grid;
-    column-gap: 6.4rem;
-    row-gap: 9.6rem;
-}
+
 
 
 .container{
     max-width: 120rem;
     padding: 0 3.2rem;
     margin: 0 auto;
+}
+
+.grid { 
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+  
+}
+
+
+
+.grid:not(:last-child){
+    margin-bottom: 9.6rem;
 }
 
 .grid--2-cols{
